@@ -68,7 +68,13 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 35ch;
+}
+
+.fileButton {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .info {
