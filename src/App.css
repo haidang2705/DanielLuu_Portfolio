@@ -28,7 +28,7 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 10px;
 }
 
 h1,
@@ -67,7 +67,7 @@ p {
 }
 
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .hover {
@@ -76,7 +76,7 @@ p {
 
 @media (width >= 800px) {
   #root {
-    gap: 100px;
+    gap: 50px;
   }
   h1 {
     font-size: 40px;
@@ -95,7 +95,7 @@ p {
 
   @media (width >= 1400px) {
     #root {
-      gap: 200px;
+      gap: 60px;
     }
     h1 {
       font-size: 48px;
