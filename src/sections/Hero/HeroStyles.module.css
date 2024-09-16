@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
   text-align: center;
-  height: 100dvh;
-  min-height: 500px;
+  height: 60dvh;
+  min-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 
   .hero {
+    margin-bottom: 30px;
     max-width: 200px;
   }
 
@@ -59,7 +61,8 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  top: 25px; /* Adjust as needed to vertically align the icon */
+  left: 100%; /* Adjust the right margin if it's too close to the edge */
   width: 25px;
 }
 
@@ -88,19 +91,26 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 30px;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 300px;
+      width: 300px;
     }
+  }
+  .colorMode {
+    top: 25px;
+    left: 110%; 
   }
 }
 
 @media (width >= 1400px) {
   .container {
+    margin-top: 30px;
+
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 300px;
+      width: 300px;
     }
   }
 }
