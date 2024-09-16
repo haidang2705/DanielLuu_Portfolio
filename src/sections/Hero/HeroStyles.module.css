@@ -62,7 +62,7 @@
 .colorMode {
   position: absolute;
   top: 25px; /* Adjust as needed to vertically align the icon */
-  left: 100%; /* Adjust the right margin if it's too close to the edge */
+  left: 80%; /* Adjust the right margin if it's too close to the edge */
   width: 25px;
 }
 
@@ -100,7 +100,7 @@
   }
   .colorMode {
     top: 25px;
-    left: 110%; 
+    left: 100%; 
   }
 }
 
