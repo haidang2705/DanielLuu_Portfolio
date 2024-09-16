@@ -3,7 +3,7 @@ import DLPicture from "../../assets/DL.png";
 import Resume from '../../assets/NguyenLuu_Resume.docx';
 import Reference from '../../assets/DanielLuu_Reference.docx';
 import { useTheme } from '../../common/ThemeContext';
-import Icons from '../../statics/index';
+import Icons from "../../statics/index";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -33,7 +33,7 @@ function Hero() {
             {theme === "light" ? <Icons.LightGithubIcon /> : <Icons.DarkGithubIcon />}
           </a>
           <a href="https://www.linkedin.com/in/daniel-nguyen-luu-a73454218/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+            {theme === "light" ? <Icons.LightLinkedInIcon /> : <Icons.DarkLinkedInIcon />}
           </a>
         </span>
         <p className={styles.description}>
