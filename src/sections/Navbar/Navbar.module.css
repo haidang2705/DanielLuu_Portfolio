@@ -16,6 +16,7 @@
     gap: 15px;
     margin-bottom: 20px;
     width: 100%;
+    position: relative;
   }
   
   .logo {
@@ -27,21 +28,22 @@
     align-items: center; /* Vertically aligns items */
     font-weight: bold;
     font-family: 'Nova Square';
+    flex: 1;
+    gap: 15px;
     width: 100%; /* Ensures the links take up the full width available */
   }
   
   .links li {
-    margin-right: 1rem;
     display: flex;
     align-items: center; /* Ensure each list item content is aligned vertically */
   }
   
   .links li:last-child {
-    position: absolute;
-    right: 5px;
+    display: flex;
+    align-items: center;
     color: var(--text-color);
-    text-align: right;
     cursor: pointer;
+    margin-left: 0.7rem;
   }
   
   .links li:last-child span {
@@ -65,13 +67,12 @@
     
     .links {
       gap: 20px;
-      width: auto;
     }
 
     .links li:last-child {
       position: absolute;
       gap: 15px;
-      right: 10px;
+      right: 3rem;
     }
 
     .links li:last-child span {
