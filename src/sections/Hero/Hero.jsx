@@ -16,9 +16,6 @@ function Hero() {
           className={styles.hero}
           alt="Profile picture of Daniel"
         />
-        <div className={styles.colorMode} onClick={toggleTheme}>
-          {theme === "light" ? <Icons.SunIcon /> : <Icons.MoonIcon />}
-        </div>
       </div>
       <div className={styles.info}>
         <h1>

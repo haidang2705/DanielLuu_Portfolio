@@ -1,0 +1,81 @@
+[data-theme='dark'] {
+  --background-color: #222;
+  --btn-color: #fff;
+  --btn-text-color: #222;
+  --project-card-bg: #fff;
+  --text-color: #fff;
+  --form-text-color: #fff;
+  --footer-text-color: #bbb;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 1rem;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 60px;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    font-weight: bold;
+    font-family: 'Nova Square';
+    width: 100%; /* Ensures the links take up the full width available */
+  }
+  
+  .links li {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center; /* Ensure each list item content is aligned vertically */
+  }
+  
+  .links li:last-child {
+    position: absolute;
+    right: 5px;
+    color: var(--text-color);
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .links li:last-child span {
+    display: none;
+  }
+
+  .links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .links li a:hover {
+    color: #f39c12;
+  }
+  
+  @media (width >= 820px) {
+    .logo {
+      width: 100px;
+    }
+    
+    .links {
+      gap: 20px;
+      width: auto;
+    }
+
+    .links li:last-child {
+      position: absolute;
+      gap: 15px;
+      right: 10px;
+    }
+
+    .links li:last-child span {
+      display: inline;
+    }
+  }
+  

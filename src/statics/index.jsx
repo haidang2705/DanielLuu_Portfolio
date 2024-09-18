@@ -6,6 +6,7 @@ import DarkGithubIcon from "./DarkGithub";
 import LightGithubIcon from "./LightGithub";
 import DarkLinkedInIcon from "./DarkLinkedIn";
 import LightLinkedInIcon from "./LightLinkedIn";
+import CodingIcon from "./Coding";
 
 
 const Icons = {
@@ -16,7 +17,8 @@ const Icons = {
   DarkGithubIcon,
   LightGithubIcon,
   DarkLinkedInIcon,
-  LightLinkedInIcon
+  LightLinkedInIcon,
+  CodingIcon
 };
 
 export default Icons;
